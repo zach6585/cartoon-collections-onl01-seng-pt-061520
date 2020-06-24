@@ -16,11 +16,11 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |cheese|
     a = array.include?{cheese} 
-    if a == false
-      return nil 
+    if a == true 
+      return cheese 
     end 
   end 
-  return true 
+  return nil 
 end
 
 roll_call_dwarves(['dopey','Grumpy','Bashful'])
