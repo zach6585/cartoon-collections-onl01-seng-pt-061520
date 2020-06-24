@@ -19,8 +19,8 @@ def find_the_cheese(array)
     if a == true 
       return cheese 
     end 
-  end 
   return nil 
+  end 
 end
 
 roll_call_dwarves(['dopey','Grumpy','Bashful'])
